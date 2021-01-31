@@ -11,6 +11,15 @@ header {
     flex-wrap: nowrap;
 
 }
+
+.footer-link:hover, .header-link:hover { 
+    text-decoration:underline;
+}
+
+span.footer-link:hover{
+    text-decoration:none;
+}
+
 .header-container{
     display: flex;
     flex-wrap: nowrap;
@@ -51,7 +60,7 @@ main{
     max-width: 550px;
     width: 100%;
 }
-.searchbox:hover{
+.searchbox:hover, .searchbutton:hover{
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
 }
 
